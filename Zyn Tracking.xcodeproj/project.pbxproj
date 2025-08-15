@@ -23,6 +23,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E737D9322E4E2D4600AE8F70 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E737D8C02E4D7AC200AE8F70 /* Zyn Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zyn Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E737D8D12E4D7AC300AE8F70 /* Zyn TrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zyn TrackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +115,7 @@
 				E737D8BC2E4D7AC200AE8F70 /* Sources */,
 				E737D8BD2E4D7AC200AE8F70 /* Frameworks */,
 				E737D8BE2E4D7AC200AE8F70 /* Resources */,
+				E737D9322E4E2D4600AE8F70 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -414,7 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "personal.Zyn-Tracking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -453,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "personal.Zyn-Tracking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
