@@ -1,5 +1,4 @@
 import Foundation
-import WatchConnectivity
 
 // MARK: - Shared Data Models
 struct ZynEntry: Identifiable, Codable {
@@ -40,76 +39,21 @@ struct ZynCounter: Identifiable, Codable {
     }
 }
 
-// MARK: - ZynTracker with WatchConnectivity
-class ZynTracker: NSObject, ObservableObject, WCSessionDelegate {
+// MARK: - ZynTracker
+class ZynTracker: ObservableObject {
     @Published var counters: [ZynCounter] = []
     @Published var selectedDate: Date = Date()
     
     private let userDefaults = UserDefaults.standard
     private let countersKey = "ZynCounters"
     
-    override init() {
-        super.init()
+    init() {
         loadCounters()
-        setupWatchConnectivity()
         
         // Initialize with default counters if empty
         if counters.isEmpty {
             counters = ZynStrength.allCases.map { strength in
                 ZynCounter(strength: strength, entries: [])
-            }
-        }
-    }
-    
-    // MARK: - WatchConnectivity Setup
-    private func setupWatchConnectivity() {
-        if WCSession.isSupported() {
-            let session = WCSession.default
-            session.delegate = self
-            session.activate()
-        }
-    }
-    
-    // MARK: - WCSessionDelegate Methods
-    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
-        if let error = error {
-            print("WatchConnectivity activation failed: \(error.localizedDescription)")
-        } else {
-            print("WatchConnectivity activated successfully")
-        }
-    }
-    
-    #if os(iOS)
-    func sessionDidBecomeInactive(_ session: WCSession) {
-        print("WatchConnectivity session became inactive")
-    }
-    
-    func sessionDidDeactivate(_ session: WCSession) {
-        print("WatchConnectivity session deactivated")
-        // Reactivate for future use
-        WCSession.default.activate()
-    }
-    #endif
-    
-    // MARK: - Data Synchronization
-    func syncDataToWatch() {
-        guard WCSession.default.isReachable else { return }
-        
-        let data = try? JSONEncoder().encode(counters)
-        let message = ["counters": data?.base64EncodedString() ?? ""]
-        
-        WCSession.default.sendMessage(message, replyHandler: nil) { error in
-            print("Failed to sync data to watch: \(error.localizedDescription)")
-        }
-    }
-    
-    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
-        DispatchQueue.main.async {
-            if let countersData = message["counters"] as? String,
-               let data = Data(base64Encoded: countersData),
-               let newCounters = try? JSONDecoder().decode([ZynCounter].self, from: data) {
-                self.counters = newCounters
-                self.saveCounters()
             }
         }
     }
@@ -123,7 +67,8 @@ class ZynTracker: NSObject, ObservableObject, WCSessionDelegate {
         }
         
         saveCounters()
-        syncDataToWatch()
+        
+        saveCounters()
     }
     
     func getCountForSelectedDate(_ strength: ZynStrength) -> Int {
