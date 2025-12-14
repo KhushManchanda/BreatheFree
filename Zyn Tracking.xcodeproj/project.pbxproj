@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E7C837A92EEE4A6C00EE85DC /* Zyn Tracking Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E7C8376A2EEE3F2200EE85DC /* Zyn Tracking Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E737D8D22E4D7AC300AE8F70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,6 +25,41 @@
 			remoteGlobalIDString = E737D8BF2E4D7AC200AE8F70;
 			remoteInfo = "Zyn Tracking";
 		};
+		E7C837492EEE3E6C00EE85DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E737D8B82E4D7AC200AE8F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C8373B2EEE3E6B00EE85DC;
+			remoteInfo = "Zyn Tracking Watch App Watch App";
+		};
+		E7C837532EEE3E6C00EE85DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E737D8B82E4D7AC200AE8F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C8373B2EEE3E6B00EE85DC;
+			remoteInfo = "Zyn Tracking Watch App Watch App";
+		};
+		E7C837772EEE3F2200EE85DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E737D8B82E4D7AC200AE8F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C837692EEE3F2200EE85DC;
+			remoteInfo = "Zyn Tracking Watch App";
+		};
+		E7C837812EEE3F2200EE85DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E737D8B82E4D7AC200AE8F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C837692EEE3F2200EE85DC;
+			remoteInfo = "Zyn Tracking Watch App";
+		};
+		E7C8383C2EEE6C0100EE85DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E737D8B82E4D7AC200AE8F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C837692EEE3F2200EE85DC;
+			remoteInfo = "Zyn Tracking Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +69,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
+				E7C837A92EEE4A6C00EE85DC /* Zyn Tracking Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,11 +80,30 @@
 		E737D8C02E4D7AC200AE8F70 /* Zyn Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zyn Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E737D8D12E4D7AC300AE8F70 /* Zyn TrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zyn TrackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E737D8DB2E4D7AC300AE8F70 /* Zyn TrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zyn TrackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C8373C2EEE3E6B00EE85DC /* Zyn Tracking Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zyn Tracking Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C837482EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zyn Tracking Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C837522EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zyn Tracking Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C8376A2EEE3F2200EE85DC /* Zyn Tracking Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zyn Tracking Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C837762EEE3F2200EE85DC /* Zyn Tracking Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zyn Tracking Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C837802EEE3F2200EE85DC /* Zyn Tracking Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zyn Tracking Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E7C837A72EEE41DF00EE85DC /* Exceptions for "Zyn Tracking" folder in "Zyn Tracking Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ZynData.swift,
+			);
+			target = E7C837692EEE3F2200EE85DC /* Zyn Tracking Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E737D8C22E4D7AC200AE8F70 /* Zyn Tracking */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E7C837A72EEE41DF00EE85DC /* Exceptions for "Zyn Tracking" folder in "Zyn Tracking Watch App" target */,
+			);
 			path = "Zyn Tracking";
 			sourceTree = "<group>";
 		};
@@ -56,6 +115,21 @@
 		E737D8DE2E4D7AC300AE8F70 /* Zyn TrackingUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Zyn TrackingUITests";
+			sourceTree = "<group>";
+		};
+		E7C8376B2EEE3F2200EE85DC /* Zyn Tracking Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Zyn Tracking Watch App";
+			sourceTree = "<group>";
+		};
+		E7C837792EEE3F2200EE85DC /* Zyn Tracking Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Zyn Tracking Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E7C837832EEE3F2200EE85DC /* Zyn Tracking Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Zyn Tracking Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +156,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7C837392EEE3E6B00EE85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837452EEE3E6C00EE85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C8374F2EEE3E6C00EE85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837672EEE3F2200EE85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837732EEE3F2200EE85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C8377D2EEE3F2200EE85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +207,10 @@
 				E737D8C22E4D7AC200AE8F70 /* Zyn Tracking */,
 				E737D8D42E4D7AC300AE8F70 /* Zyn TrackingTests */,
 				E737D8DE2E4D7AC300AE8F70 /* Zyn TrackingUITests */,
+				E7C8376B2EEE3F2200EE85DC /* Zyn Tracking Watch App */,
+				E7C837792EEE3F2200EE85DC /* Zyn Tracking Watch AppTests */,
+				E7C837832EEE3F2200EE85DC /* Zyn Tracking Watch AppUITests */,
+				E7C837A82EEE4A6B00EE85DC /* Frameworks */,
 				E737D8C12E4D7AC200AE8F70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +221,21 @@
 				E737D8C02E4D7AC200AE8F70 /* Zyn Tracking.app */,
 				E737D8D12E4D7AC300AE8F70 /* Zyn TrackingTests.xctest */,
 				E737D8DB2E4D7AC300AE8F70 /* Zyn TrackingUITests.xctest */,
+				E7C8373C2EEE3E6B00EE85DC /* Zyn Tracking Watch App Watch App.app */,
+				E7C837482EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppTests.xctest */,
+				E7C837522EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppUITests.xctest */,
+				E7C8376A2EEE3F2200EE85DC /* Zyn Tracking Watch App.app */,
+				E7C837762EEE3F2200EE85DC /* Zyn Tracking Watch AppTests.xctest */,
+				E7C837802EEE3F2200EE85DC /* Zyn Tracking Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C837A82EEE4A6B00EE85DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +253,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E7C8383D2EEE6C0100EE85DC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				E737D8C22E4D7AC200AE8F70 /* Zyn Tracking */,
@@ -177,6 +311,133 @@
 			productReference = E737D8DB2E4D7AC300AE8F70 /* Zyn TrackingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E7C8373B2EEE3E6B00EE85DC /* Zyn Tracking Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C837632EEE3E6D00EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch App Watch App" */;
+			buildPhases = (
+				E7C837382EEE3E6B00EE85DC /* Sources */,
+				E7C837392EEE3E6B00EE85DC /* Frameworks */,
+				E7C8373A2EEE3E6B00EE85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zyn Tracking Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Zyn Tracking Watch App Watch App";
+			productReference = E7C8373C2EEE3E6B00EE85DC /* Zyn Tracking Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7C837472EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C837642EEE3E6D00EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch App Watch AppTests" */;
+			buildPhases = (
+				E7C837442EEE3E6C00EE85DC /* Sources */,
+				E7C837452EEE3E6C00EE85DC /* Frameworks */,
+				E7C837462EEE3E6C00EE85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C8374A2EEE3E6C00EE85DC /* PBXTargetDependency */,
+			);
+			name = "Zyn Tracking Watch App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Zyn Tracking Watch App Watch AppTests";
+			productReference = E7C837482EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7C837512EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C837652EEE3E6D00EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch App Watch AppUITests" */;
+			buildPhases = (
+				E7C8374E2EEE3E6C00EE85DC /* Sources */,
+				E7C8374F2EEE3E6C00EE85DC /* Frameworks */,
+				E7C837502EEE3E6C00EE85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C837542EEE3E6C00EE85DC /* PBXTargetDependency */,
+			);
+			name = "Zyn Tracking Watch App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Zyn Tracking Watch App Watch AppUITests";
+			productReference = E7C837522EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E7C837692EEE3F2200EE85DC /* Zyn Tracking Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C837882EEE3F2200EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch App" */;
+			buildPhases = (
+				E7C837662EEE3F2200EE85DC /* Sources */,
+				E7C837672EEE3F2200EE85DC /* Frameworks */,
+				E7C837682EEE3F2200EE85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E7C8376B2EEE3F2200EE85DC /* Zyn Tracking Watch App */,
+			);
+			name = "Zyn Tracking Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Zyn Tracking Watch App";
+			productReference = E7C8376A2EEE3F2200EE85DC /* Zyn Tracking Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7C837752EEE3F2200EE85DC /* Zyn Tracking Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C8378B2EEE3F2200EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch AppTests" */;
+			buildPhases = (
+				E7C837722EEE3F2200EE85DC /* Sources */,
+				E7C837732EEE3F2200EE85DC /* Frameworks */,
+				E7C837742EEE3F2200EE85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C837782EEE3F2200EE85DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7C837792EEE3F2200EE85DC /* Zyn Tracking Watch AppTests */,
+			);
+			name = "Zyn Tracking Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Zyn Tracking Watch AppTests";
+			productReference = E7C837762EEE3F2200EE85DC /* Zyn Tracking Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7C8377F2EEE3F2200EE85DC /* Zyn Tracking Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C8378E2EEE3F2200EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch AppUITests" */;
+			buildPhases = (
+				E7C8377C2EEE3F2200EE85DC /* Sources */,
+				E7C8377D2EEE3F2200EE85DC /* Frameworks */,
+				E7C8377E2EEE3F2200EE85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C837822EEE3F2200EE85DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7C837832EEE3F2200EE85DC /* Zyn Tracking Watch AppUITests */,
+			);
+			name = "Zyn Tracking Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Zyn Tracking Watch AppUITests";
+			productReference = E7C837802EEE3F2200EE85DC /* Zyn Tracking Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,8 +445,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					E737D8BF2E4D7AC200AE8F70 = {
 						CreatedOnToolsVersion = 16.2;
@@ -197,6 +458,29 @@
 					E737D8DA2E4D7AC300AE8F70 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = E737D8BF2E4D7AC200AE8F70;
+					};
+					E7C8373B2EEE3E6B00EE85DC = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					E7C837472EEE3E6C00EE85DC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E7C8373B2EEE3E6B00EE85DC;
+					};
+					E7C837512EEE3E6C00EE85DC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E7C8373B2EEE3E6B00EE85DC;
+					};
+					E7C837692EEE3F2200EE85DC = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
+					E7C837752EEE3F2200EE85DC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E7C837692EEE3F2200EE85DC;
+					};
+					E7C8377F2EEE3F2200EE85DC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E7C837692EEE3F2200EE85DC;
 					};
 				};
 			};
@@ -217,6 +501,12 @@
 				E737D8BF2E4D7AC200AE8F70 /* Zyn Tracking */,
 				E737D8D02E4D7AC300AE8F70 /* Zyn TrackingTests */,
 				E737D8DA2E4D7AC300AE8F70 /* Zyn TrackingUITests */,
+				E7C8373B2EEE3E6B00EE85DC /* Zyn Tracking Watch App Watch App */,
+				E7C837472EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppTests */,
+				E7C837512EEE3E6C00EE85DC /* Zyn Tracking Watch App Watch AppUITests */,
+				E7C837692EEE3F2200EE85DC /* Zyn Tracking Watch App */,
+				E7C837752EEE3F2200EE85DC /* Zyn Tracking Watch AppTests */,
+				E7C8377F2EEE3F2200EE85DC /* Zyn Tracking Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +527,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E737D8D92E4D7AC300AE8F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C8373A2EEE3E6B00EE85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837462EEE3E6C00EE85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837502EEE3E6C00EE85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837682EEE3F2200EE85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837742EEE3F2200EE85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C8377E2EEE3F2200EE85DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,6 +599,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7C837382EEE3E6B00EE85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837442EEE3E6C00EE85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C8374E2EEE3E6C00EE85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837662EEE3F2200EE85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C837722EEE3F2200EE85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C8377C2EEE3F2200EE85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -279,6 +653,31 @@
 			isa = PBXTargetDependency;
 			target = E737D8BF2E4D7AC200AE8F70 /* Zyn Tracking */;
 			targetProxy = E737D8DC2E4D7AC300AE8F70 /* PBXContainerItemProxy */;
+		};
+		E7C8374A2EEE3E6C00EE85DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C8373B2EEE3E6B00EE85DC /* Zyn Tracking Watch App Watch App */;
+			targetProxy = E7C837492EEE3E6C00EE85DC /* PBXContainerItemProxy */;
+		};
+		E7C837542EEE3E6C00EE85DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C8373B2EEE3E6B00EE85DC /* Zyn Tracking Watch App Watch App */;
+			targetProxy = E7C837532EEE3E6C00EE85DC /* PBXContainerItemProxy */;
+		};
+		E7C837782EEE3F2200EE85DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C837692EEE3F2200EE85DC /* Zyn Tracking Watch App */;
+			targetProxy = E7C837772EEE3F2200EE85DC /* PBXContainerItemProxy */;
+		};
+		E7C837822EEE3F2200EE85DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C837692EEE3F2200EE85DC /* Zyn Tracking Watch App */;
+			targetProxy = E7C837812EEE3F2200EE85DC /* PBXContainerItemProxy */;
+		};
+		E7C8383D2EEE6C0100EE85DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C837692EEE3F2200EE85DC /* Zyn Tracking Watch App */;
+			targetProxy = E7C8383C2EEE6C0100EE85DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -317,7 +716,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z38B74RDJF;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -339,6 +740,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -378,7 +780,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z38B74RDJF;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -393,6 +797,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -405,10 +810,12 @@
 				CODE_SIGN_ENTITLEMENTS = "Zyn Tracking/Zyn_Tracking.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Zyn Tracking/Preview Content\"";
-				DEVELOPMENT_TEAM = Z38B74RDJF;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -444,10 +851,12 @@
 				CODE_SIGN_ENTITLEMENTS = "Zyn Tracking/Zyn_Tracking.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Zyn Tracking/Preview Content\"";
-				DEVELOPMENT_TEAM = Z38B74RDJF;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -481,7 +890,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z38B74RDJF;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
@@ -504,7 +913,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z38B74RDJF;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
@@ -526,7 +935,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z38B74RDJF;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
@@ -548,7 +957,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z38B74RDJF;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
@@ -562,6 +971,317 @@
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_TARGET_NAME = "Zyn Tracking";
 				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		E7C8375D2EEE3E6D00EE85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zyn Tracking Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "personal.Zyn-Tracking";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Zyn-Tracking.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		E7C8375E2EEE3E6D00EE85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zyn Tracking Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "personal.Zyn-Tracking";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Zyn-Tracking.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		E7C8375F2EEE3E6D00EE85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ZynTracking.watchkitapp.Zyn-Tracking-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zyn Tracking Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zyn Tracking Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		E7C837602EEE3E6D00EE85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ZynTracking.watchkitapp.Zyn-Tracking-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zyn Tracking Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zyn Tracking Watch App Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		E7C837612EEE3E6D00EE85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ZynTracking.watchkitapp.Zyn-Tracking-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Zyn Tracking Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		E7C837622EEE3E6D00EE85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ZynTracking.watchkitapp.Zyn-Tracking-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Zyn Tracking Watch App Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		E7C837892EEE3F2200EE85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zyn Tracking";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "personal.Zyn-Tracking";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Zyn-Tracking.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Zyn Tracking Watch App/Zyn Tracking Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		E7C8378A2EEE3F2200EE85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zyn Tracking";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "personal.Zyn-Tracking";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Zyn-Tracking.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Zyn Tracking Watch App/Zyn Tracking Watch App-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		E7C8378C2EEE3F2200EE85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ZynTracking.watchkitapp.Zyn-Tracking-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zyn Tracking Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zyn Tracking Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		E7C8378D2EEE3F2200EE85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ZynTracking.watchkitapp.Zyn-Tracking-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zyn Tracking Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zyn Tracking Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		E7C8378F2EEE3F2200EE85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ZynTracking.watchkitapp.Zyn-Tracking-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Zyn Tracking Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		E7C837902EEE3F2200EE85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ZynTracking.watchkitapp.Zyn-Tracking-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Zyn Tracking Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
 		};
@@ -600,6 +1320,60 @@
 			buildConfigurations = (
 				E737D8EC2E4D7AC300AE8F70 /* Debug */,
 				E737D8ED2E4D7AC300AE8F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C837632EEE3E6D00EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C8375D2EEE3E6D00EE85DC /* Debug */,
+				E7C8375E2EEE3E6D00EE85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C837642EEE3E6D00EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C8375F2EEE3E6D00EE85DC /* Debug */,
+				E7C837602EEE3E6D00EE85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C837652EEE3E6D00EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C837612EEE3E6D00EE85DC /* Debug */,
+				E7C837622EEE3E6D00EE85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C837882EEE3F2200EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C837892EEE3F2200EE85DC /* Debug */,
+				E7C8378A2EEE3F2200EE85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C8378B2EEE3F2200EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C8378C2EEE3F2200EE85DC /* Debug */,
+				E7C8378D2EEE3F2200EE85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C8378E2EEE3F2200EE85DC /* Build configuration list for PBXNativeTarget "Zyn Tracking Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C8378F2EEE3F2200EE85DC /* Debug */,
+				E7C837902EEE3F2200EE85DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
