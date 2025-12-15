@@ -5,23 +5,37 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(ZynStrength.allCases, id: \.self) { strength in
-                NavigationLink(destination: WatchCounterView(tracker: tracker, strength: strength)) {
-                    HStack {
-                        Circle()
-                            .fill(Color(strength.color))
-                            .frame(width: 12, height: 12)
-                        Text(strength.displayName)
-                            .font(.headline)
-                        Spacer()
-                        Text("\(tracker.getCountForSelectedDate(strength))")
-                            .foregroundColor(.secondary)
+            ScrollView {
+                VStack(spacing: 12) {
+                    ForEach(ZynStrength.allCases, id: \.self) { strength in
+                        NavigationLink(destination: WatchCounterView(tracker: tracker, strength: strength)) {
+                            HStack {
+                                VStack(alignment: .leading) {
+                                    Text(strength.displayName)
+                                        .font(.system(size: 20, weight: .bold, design: .rounded))
+                                        .foregroundColor(.white)
+                                    Text("\(tracker.getCountForSelectedDate(strength)) pouches")
+                                        .font(.caption)
+                                        .foregroundColor(.white.opacity(0.8))
+                                }
+                                Spacer()
+                                Image(systemName: "chevron.right.circle.fill")
+                                    .font(.title2)
+                                    .foregroundColor(.white.opacity(0.6))
+                            }
+                            .padding()
+                            .frame(maxWidth: .infinity)
+                            .background(Color(strength.color))
+                            .cornerRadius(16)
+                        }
+                        .buttonStyle(PlainButtonStyle())
                     }
-                    .padding(.vertical, 8)
                 }
+                .padding()
             }
             .navigationTitle("Zyn Tracker")
         }
+    }
     }
 }
 
